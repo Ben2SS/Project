@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box; /* Inclut la bordure et le padding dans la largeur et la hauteur totale des éléments */
+  margin: 0; /* Supprime les marges par défaut des éléments */
+  padding: 0; /* Supprime le padding par défaut des éléments */
+}
+
+header {
+  background-color: #d21f1f; /* Définit la couleur d'arrière-plan de l'en-tête */
+}
+
+.Menu {
+  display: flex; /* Utilise le modèle de boîte flexible pour le menu */
+}
+
+.logo {
+  display: flex; /* Utilise le modèle de boîte flexible pour le logo */
+}
+
+.home {
+  display: flex; /* Utilise le modèle de boîte flexible pour la section "home" */
+  justify-content: end; /* Aligne les éléments à droite */
+  margin-left: 20%; /* Ajoute une marge à gauche pour espacer les éléments */
+}
+
+.Titre {
+  margin-right: 5px; /* Ajoute un espacement à droite du titre */
+  color: black; /* Définit la couleur du texte du titre */
+  font-size: 75px; /* Définit la taille de la police du titre */
+}
+
+.tamer {
+  background-image: url(R.jpg); /* Définit une image d'arrière-plan */
+  width: 100%; /* L'image prend toute la largeur */
+}
+
+.selection {
+  display: flex; /* Utilise le modèle de boîte flexible pour la sélection */
+}
+
+.selection2 {
+  display: flex; /* Utilise le modèle de boîte flexible pour la sélection 2 */
+  align-content: end; /* Aligne le contenu à la fin du conteneur */
+  width: 100%; /* Prend toute la largeur du conteneur parent */
+}
+
+.carte {
+  margin-left: 1%; /* Ajoute une marge à gauche des cartes */
+  margin-bottom: 1%; /* Ajoute une marge en bas des cartes */
+  height: 30%; /* Définit une hauteur de 30% */
+  width: 100%; /* Prend toute la largeur du conteneur */
+}
+
+.tamer2 {
+  background-image: url(R.jpg); /* Définit une image d'arrière-plan pour un autre conteneur */
+}
+
+.selection9 {
+  display: block; /* Change le mode d'affichage en bloc */
+  margin-bottom: 5%; /* Ajoute une marge en bas */
+  margin-left: 30%; /* Ajoute une marge à gauche */
+}
+
+.carte2 {
+  margin-bottom: 5%; /* Ajoute une marge en bas pour les cartes 2 */
+}
+
+.img2 {
+  margin-top: 5%; /* Ajoute une marge en haut des images */
+  display: block; /* Change le mode d'affichage en bloc */
+  margin-right: 50%; /* Ajoute une marge à droite */
+}
+
+.tcarte {
+  color: #fff; /* Définit la couleur du texte pour les titres de carte */
+  font-size: 100px; /* Définit la taille de la police des titres de carte */
+}
+
+.descriptif {
+  color: #fff; /* Définit la couleur du texte descriptif */
+  display: flex; /* Utilise le modèle de boîte flexible pour le descriptif */
+  margin-right: 10%; /* Ajoute une marge à droite */
+}
+
+.img {
+  height: 100%; /* Définit la hauteur à 100% de son conteneur */
+  width: 100%; /* Définit la largeur à 100% de son conteneur */
+  display: flex; /* Utilise le modèle de boîte flexible */
+  justify-content: center; /* Centre le contenu horizontalement */
+}
+
+.trade {
+  display: flex; /* Utilise le modèle de boîte flexible pour la section trade */
+  justify-content: center; /* Centre le contenu horizontalement */
+}
+
+.titrecarte {
+  margin: 2%; /* Ajoute une marge de 2% */
+  text-align: center; /* Centre le texte du titre de carte */
+  color: #fff; /* Définit la couleur du texte du titre de carte */
+}
+
+.styled {
+  border: 0; /* Supprime la bordure des boutons */
+  line-height: 2.5; /* Définit l'espacement entre les lignes du texte */
+  padding: 0 90px; /* Ajoute un padding horizontal de 90px */
+  font-size: 1rem; /* Définit la taille de la police à 1rem */
+  text-align: center; /* Centre le texte à l'intérieur des boutons */
+  color: #050505; /* Définit la couleur du texte des boutons */
+  text-shadow: 1px 1px 1px #000; /* Ajoute une ombre au texte des boutons */
+  border-radius: 10px; /* Arrondit les coins des boutons */
+  background-color: rgba(220, 0, 0, 1); /* Définit la couleur d'arrière-plan des boutons */
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  ); /* Applique un dégradé en arrière-plan */
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6); /* Ajoute une ombre interne aux boutons */
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1); /* Change la couleur d'arrière-plan au survol */
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6); /* Change l'ombre interne lorsque le bouton est actif */
+}
+
+.styled2 {
+  line-height: 6.0; /* Définit l'espacement entre les lignes du texte */
+  padding: 0 25.5px; /* Ajoute un padding horizontal de 25.5px */
+  font-size: 1rem; /* Définit la taille de la police à 1rem */
+  text-align: center; /* Centre le texte à l'intérieur des boutons */
+  color: #050505; /* Définit la couleur du texte des boutons */
+  background-color: rgb(202, 27, 27); /* Définit la couleur d'arrière-plan des boutons */
+  margin-left: 100px; /* Ajoute une marge à gauche */
+}
+
+footer {
+  background-color: #d21f1f; /* Définit la couleur d'arrière-plan du pied de page */
+}
+
+/* Media query pour les écrans de largeur maximale 800px */
+@media screen and (max-width: 800px) {
+  .home {
+    margin-left: 0; /* Supprime l'emplacement pour les écrans plus petits */
+  }
+
+  .logo {
+    height: 50%; /* Réduit la hauteur du logo */
+    width: 50%; /* Réduit la largeur du logo */
+  }
+  
+  .Titre {
+    font-size: 30px; /* Réduit la taille de la police du titre */
+  }
+
+  .selection,
+  .selection2 {
+    flex-direction: column; /* Change la direction des éléments en colonne */
+    align-items: center; /* Centre les éléments dans la colonne */
+  }
+
+  .img2 {
+    margin-right: 0; /* Supprime la marge à droite */
+    margin-bottom: 20px; /* Ajoute un espace en bas des images */
+  }
+
+  .carte {
+    height: auto; /* Permet aux cartes de s'adapter à leur contenu */
+  }
+
+  .styled2 {
+    margin-left: 20px; /* Réduit la marge à gauche pour les écrans plus petits */
+  }
+
+  .descriptif {
+    margin-right: 0; /* Supprime la marge à droite */
+    text-align: center; /* Centre le texte descriptif */
+  }
+
+  .tcarte {
+    font-size: 50px; /* Réduit la taille des titres des cartes */
+  }
+
+  .selection9 {
+    margin: auto; /* Centre la section dans le conteneur */
+  }
+}
