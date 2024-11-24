@@ -1,0 +1,55 @@
+Deep light
+
+inspi : 
+	designe perso:
+	magic survival
+
+	meca:
+	warframe 
+	portal
+	zelda mm(bouclier miroir)
+	rayman legend(luciole)
+	
+
+	monde:
+
+	hollow knight(void)
+	far( apparence general)
+
+objectif (ilumination) 
+tt les mob sont des squelettes
+
+2 partie normal/eau 
+pas de monstre 
+
+mecanique : le personage = boule lumineuse 
+prenre controle des enemis ( gueule d'or warframe) 
+tt machin posseder par la lumiere peuvent rebondir sur des miroir 
+bete: poisson , souris...
+stoxker les bete morte 
+poisson il entre dans miroir il resor par l'autre coter 
+les enemis tu les voit a partir du moment ou il rentre dans ton champ de lumiere 
+chaque instance de degat eclaire tt la zone 
+capacite a eclairer la zone 
+bpuclier miroir, tu eput le jeter  
+cumuler les betes sur la tete pour pouvoir les envoyer 
+
+pouvoir du personnage: 
+ 
+machin eligible a la possesion : 
+	tt squlette avec une luciole dedans.
+	lumiere de possesion(passer atraver les miroirs 
+	corps de base (pousser les miroirs, tenir un bouclier miroir)
+	poisson(traverse les miroirs pour se teleporter au plus proche comme un portail)
+	grenoille(petit et qaute haut, rebondi sur les miroir)
+Pour posseder: 
+	jeter sa tete en direction du squelette
+
+jet: 
+	mecanique de mouvement 
+ 
+
+ville morte
+level longitudinal
+
+lore , monde sans soleil

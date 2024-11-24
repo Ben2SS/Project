@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="Menu">
+            <div class="logo">
+                <img src="Fortuna.png" alt="Image">
+                <h1 class="Titre">K-Ter market</h1>
+                <button id="darkModeToggle">black mode</button>
+            </div>
+
+            <div class="tabs">
+                <!-- Tabs (Onglets) -->
+                <button class="tab-link active" onclick="openTab(event, 'homeTab')">Home</button>
+                <button class="tab-link" onclick="openTab(event, 'formTab')">Form</button>
+                <button class="tab-link" onclick="openTab(event, 'combatTab')">Combat</button> <!-- New tab -->
+            </div>
+
+            <div class="home">
+                <a href="index.html"><button class="favorite styled2" type="button">home</button></a>
+                <a href="index3.html"><button class="favorite styled2" type="button">See all</button></a>
+            </div>
+        </nav>
+
+        <div id="formTab" class="tab-content">
+            <!-- Form in the Form tab -->
+            <form id="myForm">
+                <label for="pseudo">Pseudo:</label><br>
+                <input type="text" id="pseudo" name="pseudo"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="password">Mot de Passe:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+
+                <label for="password2">Vérification Mot de Passe:</label><br>
+                <input type="password" id="password2" name="password2"><br><br>
+
+                <label for="question">Quel est votre frame préféré?</label><br>
+                <input type="radio" id="apple" name="fruit" value="apple">
+                <label for="apple">vauban</label><br>
+                <input type="radio" id="orange" name="fruit" value="orange">
+                <label for="orange">chroma</label><br>
+                <input type="radio" id="banana" name="fruit" value="banana">
+                <label for="banana">nyx</label><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+                <!-- Combat Tab (Initially Hidden) -->
+                <div id="combatTab" class="tab-content">
+                    <h2>Combat Between Vauban and chroma</h2>
+                    <p id="result"></p>
+                    <p>Vauban Health: <span id="pv1">100</span></p>
+                    <p>chroma Health: <span id="pv2">80</span></p>
+                    <button onclick="combat()">Start Combat</button>
+                </div>
+        
+                <!-- Form Tab (Existing) -->
+                <div id="formTab" class="tab-content">
+                    <!-- Form content here -->
+                </div>
+    </header>
+
+    <div class="tamer"> <!-- Conteneur principal pour le contenu -->
+        <section class="selection"> <!-- Section contenant les premières cartes -->
+            <main class="carte"> <!-- Conteneur pour la première carte -->
+                <div class="img"> <!-- Conteneur pour l'image -->
+                    <img src="SEVAGOTH.png" alt="Image"> <!-- Image du personnage Sevagoth -->
+                </div>
+                <div class="titrecarte"> <!-- Conteneur pour le titre de la carte -->
+                    <h1>SEVAGOTH </h1> <!-- Titre de la carte -->
+                </div>
+                <div class="trade"> <!-- Conteneur pour les boutons d'action -->
+                    <a href="https://warframe.market"><button class="favorite styled" type="button">trade</button></a> <!-- Bouton pour échanger -->
+                    <a href="https://discord.com"><button class="favorite styled" type="button">chat</button></a> <!-- Bouton pour le chat -->
+                </div>
+            </main>
+            <main class="carte"> <!-- Conteneur pour la deuxième carte -->
+                <div class="img"> <!-- Conteneur pour l'image -->
+                    <img src="DEIMOS.jpg" alt="Image"> <!-- Image du personnage Saxum -->
+                </div>
+                <div class="titrecarte"> <!-- Conteneur pour le titre de la carte -->
+                    <h1>Saxum </h1> <!-- Titre de la carte -->
+                </div>
+                <div class="trade"> <!-- Conteneur pour les boutons d'action -->
+                    <a href="https://warframe.market"><button class="favorite styled" type="button">trade</button></a> <!-- Bouton pour échanger -->
+                    <a href="https://discord.com"><button class="favorite styled" type="button">chat</button></a> <!-- Bouton pour le chat -->
+                </div>
+            </main>
+        </section>
+   
+        <section class="selection2"> <!-- Section contenant les cartes suivantes -->
+            <main class="carte"> <!-- Conteneur pour la première carte -->
+                <div class="img"> <!-- Conteneur pour l'image -->
+                    <img src="VAUBAN.jpg" alt="Image"> <!-- Image du personnage Vauban -->
+                </div>
+                <div class="titrecarte"> <!-- Conteneur pour le titre de la carte -->
+                    <h1>Vauban </h1> <!-- Titre de la carte -->
+                </div>
+                <div class="trade"> <!-- Conteneur pour les boutons d'action -->
+                    <a href="https://warframe.market"><button class="favorite styled" type="button">trade</button></a> <!-- Bouton pour échanger -->
+                    <a href="https://discord.com"><button class="favorite styled" type="button">chat</button></a> <!-- Bouton pour le chat -->
+                </div>
+            </main>
+            <main class="carte"> <!-- Conteneur pour la deuxième carte -->
+                <div class="img"> <!-- Conteneur pour l'image -->
+                    <img src="TENTACLE.png" alt="Image"> <!-- Image du personnage Jugulus -->
+                </div>
+                <div class="titrecarte"> <!-- Conteneur pour le titre de la carte -->
+                    <h1>Jugulus </h1> <!-- Titre de la carte -->
+                </div>
+                <div class="trade"> <!-- Conteneur pour les boutons d'action -->
+                    <a href="https://warframe.market"><button class="favorite styled" type="button">trade</button></a> <!-- Bouton pour échanger -->
+                    <a href="https://discord.com"><button class="favorite styled" type="button">chat</button></a> <!-- Bouton pour le chat -->
+                </div>
+            </main>
+        </section> 
+    </div>
+
+    <footer> <!-- Début du pied de page -->
+        <h1>INSPIRATION</h1> <!-- Titre du pied de page -->
+        <h2><a href="https://warframe.com">https://warframe.com</a></h2> <!-- Lien vers le site Warframe -->
+        <h2><a href="https://warframe.market">https://warframe.market</a></h2> <!-- Lien vers le site Warframe Market -->
+    </footer>
+    <script src="tgg.js"></script>
+</body>
+</html>

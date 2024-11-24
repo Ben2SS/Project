@@ -1,0 +1,35 @@
+ le modélisateur 3D: création des formes et des structures qui peupleront nos mondes virtuels
+	personnage de jeu vidéo ou un décor de film d’animation:logiciels comme Blender ou Maya pour donner vie à ces concepts.
+	 la maîtrise des outils de modélisation : un réalisme ou un style artistique désiré.
+
+ l’animateur 3D (rig): l’un des plus fascinants vie aux créations.
+  techniques de rigging: squelettes numériques(Gestuelle squeletique)/ mouvements fluides et naturels
+ marcher un personnage ou smouvements d’eau: compréhension approfondie de l'anatomie/ mouvement /dynamique(objet).
+
+Le texturiseur(image de synthese): apparence visuelle des modèles.
+textures et  matériaux et UV mapping.
+ simple modèle 3D peut passer de l'état brut => représentation réaliste, détails et nuances.
+
+Un autre acteur clé est l’artiste en effets visuels, ou VFX artist.
+ effets spéciaux numériques == dimension supplémentaire aux productions.
+explosions spectaculaires ou  phénomènes naturels,  combine créativité et compétences techniques 
+
+Parallèlement, le lighting artist joue un rôle tout aussi crucial.
+ Ce spécialiste est responsable de l'éclairage des scènes, ce qui influence énormément l'ambiance générale.
+ En jouant avec les ombres et la lumière, il peut transformer une scène ordinaire en quelque chose de visuellement saisissant.
+ Une bonne maîtrise de l’éclairage peut faire toute la différence dans la perception d’un projet.
+
+Le rigger, pour sa part, s'assure que les modèles sont prêts à être animés.
+ En créant des systèmes de rigging adaptés, il permet à l'animateur de donner vie aux personnages de manière fluide et réaliste.
+ Ce métier nécessite une compréhension technique approfondie, ainsi qu'un sens artistique.
+
+En outre, le superviseur de production 3D a une vue d'ensemble du projet.
+ Il gère l'équipe, coordonne les différents départements et veille à ce que la qualité du travail soit maintenue tout au long du processus.
+Sa capacité à diriger et à communiquer est essentielle pour mener à bien des projets complexes.
+
+Enfin, le concept artist joue un rôle fondamental en définissant la direction artistique.
+ Par le biais d’illustrations, il visualise les idées et les concepts qui guideront la modélisation 3D.
+ Son travail est souvent la première étape d'un projet, et il doit être capable de communiquer clairement sa vision.
+
+Chaque métier dans la production 3D est interconnecté, et ensemble, ils contribuent à créer des mondes immersifs et des récits fascinants.
+ La diversité des compétences et des talents nécessaires dans ce domaine en fait un environnement dynamique et créatif, où chaque professionnel apporte sa pierre à l'édifice.
